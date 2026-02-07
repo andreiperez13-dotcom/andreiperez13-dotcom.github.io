@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка: Перец Андрей Анатольевич - QA Engineer</title>
+    <style>
+        /* Основные стили страницы */
+        body {
+            background-color: #000000; /* Черный фон */
+            color: #1E90FF; /* Синий текст (использую DodgerBlue для читаемости на черном) */
+            font-family: 'Courier New', Courier, monospace; /* Моноширинный шрифт, подходит для IT */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify_content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Контейнер визитки */
+        .card {
+            border: 2px solid #1E90FF;
+            padding: 40px;
+            max-width: 600px;
+            width: 90%;
+            box-shadow: 0 0 15px rgba(30, 144, 255, 0.4); /* Синее свечение */
+            text-align: center;
+        }
+
+        /* Заголовки */
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            margin-top: 0;
+            margin-bottom: 30px;
+            border-bottom: 1px dashed #1E90FF;
+            padding-bottom: 15px;
+            display: inline-block;
+        }
+
+        /* Секции */
+        .section {
+            margin-bottom: 25px;
+            text-align: left;
+        }
+
+        .section-title {
+            font-weight: bold;
+            text-decoration: underline;
+            margin-bottom: 10px;
+        }
+
+        /* Список навыков */
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* Кнопка связи */
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: 1px solid #1E90FF;
+            color: #000000;
+            background-color: #1E90FF;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #000000;
+            color: #1E90FF;
+            box-shadow: 0 0 10px #1E90FF;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Перец Андрей Анатольевич</h1>
+        
+        <h2>Junior QA Engineer</h2>
+
+        <div class="section">
+            <div class="section-title">ОБО МНЕ:</div>
+            <p>
+                Начинающий инженер по тестированию с фокусом на качество и автоматизацию. 
+                Увлекаюсь изучением сложных систем и поиском нестандартных багов.
+            </p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">НАВЫКИ (HARD SKILLS):</div>
+            <ul>
+                <li>Тестирование API (REST, JSON)</li>
+                <li>Postman (Коллекции, Автотесты)</li>
+                <li>Работа с чек-листами и тест-кейсами</li>
+                <li>Основы JSON и поиск ошибок синтаксиса</li>
+                <li>Функциональное тестирование веб-приложений</li>
+            </ul>
+        </div>
+
+        <a href="https://t.me/PepperRamiro" class="btn">НАПИСАТЬ МНЕ</a>
+    </div>
+
+</body>
+</html>
